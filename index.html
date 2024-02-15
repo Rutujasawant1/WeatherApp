@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<script type="text/javascript" src="Script.js"> </script>
+</head>
+<body>
+<div class="mdiv">
+	<div class="container">
+		<h3 class="heading">Weather App</h3>
+		<form>
+			<div class="sub">
+				<input type="text" name="city" id="city_name" placeholder="Enter City">
+			<button type="button" onclick="fetchCity()" class="btn"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTadVfS7AsPUUmOmLtDouuSq5c0wYkVPfyZH6bQVv2DSA&s" height="20px"></button>
+			</div>
+			<div>
+				<center>
+				<img src="https://cdn-icons-png.flaticon.com/512/4851/4851776.png" height="150px" style="margin-top: 20px;"></center>
+			</div>
+			<div align="center" style="padding: 10px;" >
+				<span id="city" >City Name</span><br><br>
+				<span id="temp">0°C</span>
+			</div>
+			<div align="center">
+				<table width="80%" cellspacing="10px">
+					<tr align="center">
+						<td>
+							<h4 style="color: orange;">WIND SPEED</h4>
+							<span id="wind_speed" class="a">0 km/hr</span>
+						</td>
+						<td>
+							<h4 style="color: orange;">HUMIDITY</h4>
+							<span id="humidity" class="a">0 g/kg</span>
+						</td>
+
+					</tr>
+				</table>
+			</div>
+		</form>
+	</div>
+</div>
+</body>
+</html>
